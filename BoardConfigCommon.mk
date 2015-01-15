@@ -38,6 +38,8 @@ TARGET_NO_BOOTLOADER := true
 # Liquid Optimizations
 LIQUIFY=true
 
+TARGET_GCC_VERSION_ARM := 4.10-sm
+
 # Kernel information
 BOARD_KERNEL_BASE     := 0x00000000
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=g2 user_debug=31 msm_rtb.filter=0x0
