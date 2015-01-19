@@ -38,7 +38,7 @@ TARGET_NO_BOOTLOADER := true
 # Liquid Optimizations
 LIQUIFY=true
 
-TARGET_GCC_VERSION_ARM := 4.10-sm
+TARGET_GCC_VERSION_ARM := 4.10-linaro
 
 # Kernel information
 BOARD_KERNEL_BASE     := 0x00000000
