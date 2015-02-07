@@ -38,8 +38,8 @@ TARGET_NO_BOOTLOADER := true
 # Liquid Optimizations
 LIQUIFY=true
 
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-4.9-sm
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.10-linaro
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-4.10-linaro
 
 # Kernel information
 BOARD_KERNEL_BASE     := 0x00000000
